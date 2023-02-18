@@ -1,0 +1,9 @@
+from python:latest
+
+
+
+
+WORKDIR /app
+copy . /app
+
+cmd ["python","bmi.py"]
